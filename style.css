@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #161a1d;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#heading {
+    background-color: #0b090a;
+    padding: 0.5em;
+}
+#content {
+    padding: 3em;
+    display: grid;
+    column-gap: 1em;
+    grid-template-columns: 75% 25%;
+}
+canvas {
+    width: 100%;
+    height: 7em;
+    margin-bottom: 1em;
+}
+#colormap {
+    height: 3em;
+}
+#output {
+    height: 20em;
+    color: black;
+    background-color: white;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0.5em;
+}
+#copy_btn {
+    display: block;
+    margin-top: 0.5em;
+    width: 100%;
+}

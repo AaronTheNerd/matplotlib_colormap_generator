@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Matplotlib Colormap Generator</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="heading">
+        <h1>Matplotlib Colormap Generator</h1>
+    </div>
+    <div id="content">
+        <div id="left">
+            <div>
+                <canvas id="colormap"></canvas>
+            </div>
+            <div>
+                <canvas id="red"></canvas>
+            </div>
+            <div>
+                <canvas id="green"></canvas>
+            </div>
+            <div>
+                <canvas id="blue"></canvas>
+            </div>
+            <div>
+                <canvas id="alpha"></canvas>
+            </div>
+        </div>
+        <div id="right">
+            <div id="inputs">
+                Name: <input type="text" id="name_input"><br>
+                Bins: <input type="number" id="bins_input">
+            </div>
+            <div id="output"></div>
+            <button id="copy_btn" onclick="copy_to_clipboard()">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
